@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="it">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>RoBoRa25 — Portfolio</title>
+  <meta name="description" content="Portfolio di RoBoRa25: progetti, competenze e contatti." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="RoBoRa25 — Portfolio" />
+  <meta property="og:description" content="Progetti, competenze e contatti." />
+  <meta property="og:type" content="website" />
+
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Person",
+    "name":"RoBoRa25",
+    "url":"https://robora25.github.io/",
+    "sameAs":[
+      "https://github.com/RoBoRa25"
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#contenuto">Go to content </a>
+
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="brand" href="index.html" aria-label="Home">
+        <span class="brand-dot" aria-hidden="true"></span>
+        <span>RoBoRa25</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Open menu</span>
+        <span class="burger" aria-hidden="true"></span>
+      </button>
+
+      <nav id="site-nav" class="nav">
+        <a href="projects.html">Projects</a>
+        <a href="about.html">Who I am</a>
+        <a href="#contatti">Contacts</a>
+        <a class="btn btn-small" href="https://github.com/RoBoRa25" target="_blank" rel="noopener noreferrer">
+          GitHub ↗
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenuto">
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Featured projects</h2>
+        </div>
+
+        <div class="grid cards">
+          <article class="card">
+            <h3 class="h4">RoBoRa</h3>
+            <p class="muted">Firmware for ESP32 that controls a small two-motor robot, exposes a local Web UI for
+              guidance and configuration, supports OTA IMU telemetry and an OLED display</p>
+            <div class="tags">
+              <span class="tag">C++/C</span><span class="tag">Html</span><span class="tag">JS</span>
+            </div>
+            <div class="card-actions">
+              <a class="btn btn-small btn-ghost" href="https://github.com/RoBoRa25/RoBoRa25" target="_blank"
+                rel="noopener noreferrer">Repo ↗</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3 class="h4">ROBORA_CONTROLLER</h3>
+            <p class="muted">Project for a wireless remote control based on <strong>ESP32</strong> and
+              <strong>IMU</strong> sensor, using Pitch/Roll to generate commands and send them via
+              <strong>WebSocket</strong></strong>.
+            </p>
+            <div class="tags">
+              <span class="tag">C++</span><span class="tag">JavaScript</span><span class="tag">HTML</span>
+            </div>
+            <div class="card-actions">
+              <a class="btn btn-small btn-ghost" href="https://github.com/RoBoRa25/ROBORA_CONTROLLER" target="_blank"
+                rel="noopener noreferrer">Repo ↗</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3 class="h4">TetrisM5stamPLC</h3>
+            <p class="muted"><em>Homebrew</em> version of <strong>Tetris</strong> for <strong>M5StamPLC</strong>
+              (M5Stack ecosystem), developed in Arduino/C++.</p>
+            <div class="tags">
+              <span class="tag">C++</span><span class="tag">Arduino</span>
+            </div>
+            <div class="card-actions">
+              <a class="btn btn-small btn-ghost" href="https://github.com/RoBoRa25/TetrisM5stamPLC" target="_blank"
+                rel="noopener noreferrer">Repo ↗</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="section-cta">
+          <a class="btn btn-ghost" href="projects.html">See all projects →</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contatti" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Contacts</h2>
+          <p class="muted">Choose the best channel and follow me </p>
+        </div>
+
+        <div class="grid cards">
+          <div class="card">
+            <h3 class="h4">Email</h3>
+            <p class="muted">I'll reply as soon as possible</p>
+            <a class="btn btn-small" href="mailto:robora2025@gmail.com">Write to me</a>
+          </div>
+
+          <div class="card">
+            <h3 class="h4">LinkedIn</h3>
+            <p class="muted">Profile and networking</p>
+            <a class="btn btn-small" href="https://www.linkedin.com/in/orazio-franco-8468aa11b" target="_blank"
+              rel="noopener noreferrer">Open ↗</a>
+          </div>
+
+          <div class="card">
+            <h3 class="h4">GitHub</h3>
+            <p class="muted">Code, repo and contributions</p>
+            <a class="btn btn-small" href="https://github.com/RoBoRa25" target="_blank" rel="noopener noreferrer">Open
+              ↗</a>
+          </div>
+
+          <div class="card">
+            <h3 class="h4">Instagram</h3>
+            <p class="muted">Photos and videos</p>
+            <a class="btn btn-small" href="https://www.instagram.com/r0b0ra_2025" target="_blank"
+              rel="noopener noreferrer">Open ↗</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <p class="muted">© <span id="year"></span> RoBoRa25</p>
+      <div class="footer-links">
+        <a href="about.html">Who I am</a>
+        <a href="projects.html">Projects</a>
+        <a href="https://github.com/RoBoRa25" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+
+</html>
